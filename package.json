@@ -1,9 +1,9 @@
 {
-  "name": "protractor-typescript-cucumber",
+  "name": "newbe-pct",
   "version": "4.0.0",
   "license": "MIT",
-  "description": "To demostrate protractor cucumber tests for angular/non angular apps with allure report framework",
-  "homepage": "https://github.com/igniteram/protractor-cucumber-typescript",
+  "description": "Newbe.Pct - 简易的Web自动化测试脚手架。是基于github上优秀的开源项目protractor-cucumber-typescript本土化改造。欢迎使用者在使用本项目的同时，也能为原项目点赞：https://github.com/igniteram/protractor-cucumber-typescript",
+  "homepage": "https://github.com/newbe36524/Newbe.Pct",
   "keywords": [
     "protractor",
     "cucumber",
@@ -16,7 +16,9 @@
     "selenium",
     "webdriverJS",
     "gherkin",
-    "automation testing"
+    "automation testing",
+    "China",
+    "Zh-cn"
   ],
   "main": "index.js",
   "scripts": {
@@ -27,13 +29,15 @@
     "add-contributors": "all-contributors add",
     "generate-contributors": "all-contributors generate",
     "test": "protractor typeScript/config/config.js",
+    "testnow": "npm run clean && npm run build && protractor typeScript/config/config.js",
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start"
   },
-  "author": "Ram Pasala <ram.pasala7@gmail.com>",
+  "author": "Newbe36524 <472158246@qq.com>",
   "devDependencies": {
+    "@types/chai": "^4.1.7",
     "@types/cucumber": "^4.0.4",
-    "@types/node": "^10.7.1",
+    "@types/node": "^10.12.10",
     "@types/selenium-webdriver": "^3.0.10",
     "all-contributors-cli": "^5.4.0",
     "chai": "^4.1.2",
@@ -47,5 +51,6 @@
     "ts-node": "^7.0.1",
     "typescript": "^3.0.1"
   },
-  "repository": "https://github.com/igniteram/protractor-cucumber-typescript"
+  "repository": "https://github.com/newbe36524/Newbe.Pct",
+  "dependencies": {}
 }
