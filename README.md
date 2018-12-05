@@ -23,4 +23,4 @@ E2E（End To End）即端对端测试，属于黑盒测试，通过编写测试�
 
 ## 如何使用
 
-[博客文章正在书写中]
+首先，点击上方的 Star 按钮获取阅读权限，然后[点击此处阅读说明](http://www.newbe.pro/docs/pct/2018/12/03/Introduction-For-Newbe-Pct.html)

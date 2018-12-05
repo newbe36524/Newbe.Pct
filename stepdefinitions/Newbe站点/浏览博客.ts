@@ -11,11 +11,13 @@ const newbe博客热门文章链接列表 = new Newbe博客热门文章链接列
 
 Given(/^打开Newbe的博客首页 "(.+)"$/, async (url) => {
     await browser.get(url);
+    await browser.sleep(500);
 });
 
 When(/^点击博客左侧 热门文章 的第 "(\w)" 条$/, async (index) => {
     const lbl热门文章链接 = newbe博客热门文章链接列表.get热门文章链接(index);
     await lbl热门文章链接.click();
+    await browser.sleep(500);
 });
 
 Then(/^该文章的标题是 "(.+)"$/, async (title) => {

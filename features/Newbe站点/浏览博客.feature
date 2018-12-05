@@ -3,7 +3,7 @@ Feature: 浏览博客
   Background:
     Given 打开Newbe的博客首页 "http://www.newbe.pro"
 
-  @NewbeDemo
+  @NewbeExtDemo
   Scenario Outline: 浏览博客的主要文章
     When 点击博客左侧 热门文章 的第 "<index>" 条
     Then 该文章的标题是 "<title>"

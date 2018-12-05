@@ -1,6 +1,6 @@
 Feature: 评论666
 
-  @NewbeDemo
+  @NewbeExtDemo
   Scenario: 进入博客文章使用轻评论表示666
     Given 打开博客文章 "借一步说话" "http://www.newbe.pro/donate.html"
     When 在轻评论输入框中输入  "我要为你信仰充值"
